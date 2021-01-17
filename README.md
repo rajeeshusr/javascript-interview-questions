@@ -3615,7 +3615,7 @@ function userDetails(username) {
 250. ### What is typescript?
     TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language.
     You can install it globally as
-    ```
+    ```javascript
     npm install -g typescript
     ```
     Let's see a simple example of TypeScript usage,
