@@ -3554,7 +3554,7 @@ function userDetails(username) {
       function findMax(arr) {
         var length = arr.length
         var max = -Infinity;
-        while (len--) {
+        while (length--) {
           if (arr[length] > max) {
             max = arr[length];
           }
