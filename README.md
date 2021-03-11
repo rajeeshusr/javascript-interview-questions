@@ -386,7 +386,7 @@
 |379| [What is AJAX?](#what-is-ajax)|
 |380| [What are the different ways to deal with Asynchronous Code?](#what-are-the-different-ways-to-deal-with-asynchronous-code)|
 |381| [How to cancel a fetch request?](#how-to-cancel-a-fetch-request)|
-|382| [](#)|
+|382| [What is web speech API](#what-is-web-speech-api)|
 |383| [What is minimum timeout throttling?](#what-is-minimum-timeout-throttling)|
 |384| [How do you implement zero timeout in modern browsers?](#how-do-you-implement-zero-timeout-in-modern-browsers)|
 |385| [What are tasks in event loop?](#what-are-tasks-in-event-loop)|
@@ -395,7 +395,7 @@
 |388| [What is the purpose of queueMicrotask?](#what-is-the-purpose-of-queuemicrotask)|
 |389| [How do you use javascript libraries in typescript file?](#how-do-you-use-javascript-libraries-in-typescript-file)|
 |390| [What are the differences between promises and observables?](#what-are-the-differences-between-promises-and-observables)|
-|391| [](#)|
+|391| [What is the difference between Throttling and Debouncing?](#what-is-the-difference-between-throttling-and-debouncing?)|
 |392| [](#)|
 |393| [](#)|
 |394| [](#)|
@@ -5482,4 +5482,15 @@ function userDetails(username) {
      | Cannot be canceled | Canceled by using unsubscribe() method |
 
      **[⬆ Back to Top](#table-of-contents)**
+     
+
+391. ### What is the difference between Throttling and Debouncing?
+     
+
+     Throttling is a technique in which, no matter how many times the user fires the event, the attached function will be executed only once in a given time interval. 
+
+     Debouncing is a technique in which, no matter how many times the user fires the event, the attached function will be executed only after the specified time once the user stops firing the event.
+
+
+     **[⬆ Back to Top](#table-of-contents)**     
 
